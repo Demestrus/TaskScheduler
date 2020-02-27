@@ -1,0 +1,14 @@
+C:\Users\Demestrus\RiderProjects\TaskSceduler\ConsoleSecondTask\bin\Debug\netcoreapp3.1\ConsoleSecondTask.exe
+C:\Users\Demestrus\RiderProjects\TaskSceduler\ConsoleSecondTask\bin\Debug\netcoreapp3.1\ConsoleSecondTask.deps.json
+C:\Users\Demestrus\RiderProjects\TaskSceduler\ConsoleSecondTask\bin\Debug\netcoreapp3.1\ConsoleSecondTask.runtimeconfig.json
+C:\Users\Demestrus\RiderProjects\TaskSceduler\ConsoleSecondTask\bin\Debug\netcoreapp3.1\ConsoleSecondTask.runtimeconfig.dev.json
+C:\Users\Demestrus\RiderProjects\TaskSceduler\ConsoleSecondTask\bin\Debug\netcoreapp3.1\ConsoleSecondTask.dll
+C:\Users\Demestrus\RiderProjects\TaskSceduler\ConsoleSecondTask\bin\Debug\netcoreapp3.1\ConsoleSecondTask.pdb
+C:\Users\Demestrus\RiderProjects\TaskSceduler\ConsoleSecondTask\bin\Debug\netcoreapp3.1\Application.dll
+C:\Users\Demestrus\RiderProjects\TaskSceduler\ConsoleSecondTask\bin\Debug\netcoreapp3.1\Application.pdb
+C:\Users\Demestrus\RiderProjects\TaskSceduler\ConsoleSecondTask\obj\Debug\netcoreapp3.1\ConsoleSecondTask.csprojAssemblyReference.cache
+C:\Users\Demestrus\RiderProjects\TaskSceduler\ConsoleSecondTask\obj\Debug\netcoreapp3.1\ConsoleSecondTask.AssemblyInfoInputs.cache
+C:\Users\Demestrus\RiderProjects\TaskSceduler\ConsoleSecondTask\obj\Debug\netcoreapp3.1\ConsoleSecondTask.AssemblyInfo.cs
+C:\Users\Demestrus\RiderProjects\TaskSceduler\ConsoleSecondTask\obj\Debug\netcoreapp3.1\ConsoleSecondTask.csproj.CopyComplete
+C:\Users\Demestrus\RiderProjects\TaskSceduler\ConsoleSecondTask\obj\Debug\netcoreapp3.1\ConsoleSecondTask.dll
+C:\Users\Demestrus\RiderProjects\TaskSceduler\ConsoleSecondTask\obj\Debug\netcoreapp3.1\ConsoleSecondTask.pdb
