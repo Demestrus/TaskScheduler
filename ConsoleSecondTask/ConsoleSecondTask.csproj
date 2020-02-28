@@ -9,8 +9,4 @@
       <ProjectReference Include="..\Application\Application.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="obj\Debug\netcoreapp3.1" />
-    </ItemGroup>
-
 </Project>
