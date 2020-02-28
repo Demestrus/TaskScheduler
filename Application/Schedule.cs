@@ -36,5 +36,17 @@ namespace Application
         {
             return new Schedule(_activities);
         }
+
+        public DateTime GetFinishTime()
+        {
+            var endTime = DateTime.MinValue;
+
+            foreach (var activity in DurableActivities)
+            {
+                endTime = activity.StartTime > endTime ? activity.EndTime : endTime.Add(activity.Duration);
+            }
+
+            return endTime;
+        }
     }
 }

@@ -33,7 +33,7 @@ namespace Application
             {
                 var nextActivities = GetNextActivities(DurableActivities, schedule.DurableActivities);
                 
-                nextBetterActivity = nextActivities.OrderBy(s=>s.EndTime).FirstOrDefault();
+                nextBetterActivity = nextActivities.OrderBy(s=>s.StartTime).FirstOrDefault();
 
                 if (nextBetterActivity == null) continue;
                 

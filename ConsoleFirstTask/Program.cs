@@ -9,12 +9,12 @@ namespace ConsoleExample
     {
         static void Main(string[] args)
         {
-            //given
-            var activities = new Dictionary<long, Activity>();
-            
-            activities.Add(1, new Activity(1));
-            activities.Add(2, new Activity(2));
-            
+            var activities = new Dictionary<long, Activity>
+            {
+                {1, new Activity(1)}, 
+                {2, new Activity(2)}
+            };
+
             activities.Add(3,
                 new Activity(3, new[]
                 {
@@ -62,10 +62,8 @@ namespace ConsoleExample
 
             try
             {
-                //SUT
                 var scheduler = new Scheduler(activities.Select(s => s.Value).ToArray());
-
-                //Result
+                
                 var result = scheduler.GetSchedules();
 
                 foreach (var schedule in result)

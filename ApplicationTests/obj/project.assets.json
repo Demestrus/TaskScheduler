@@ -1225,6 +1225,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.dll": {}
+        }
       }
     }
   },
@@ -4605,10 +4615,16 @@
         "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "Application/1.0.0": {
+      "type": "project",
+      "path": "../Application/Application.csproj",
+      "msbuildProject": "../Application/Application.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Application >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.4.0",
       "NUnit3TestAdapter >= 3.15.1",
       "nunit >= 3.12.0"
@@ -4643,7 +4659,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Demestrus\\RiderProjects\\TaskSceduler\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\Demestrus\\RiderProjects\\TaskSceduler\\Application\\Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

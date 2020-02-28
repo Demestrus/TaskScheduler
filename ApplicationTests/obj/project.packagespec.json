@@ -18,7 +18,11 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "C:\\Users\\Demestrus\\RiderProjects\\TaskSceduler\\Application\\Application.csproj": {
+            "projectPath": "C:\\Users\\Demestrus\\RiderProjects\\TaskSceduler\\Application\\Application.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

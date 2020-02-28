@@ -1,0 +1,14 @@
+C:\Users\Demestrus\RiderProjects\TaskSceduler\ConsoleFirstTask\bin\Debug\netcoreapp3.1\ConsoleFirstTask.exe
+C:\Users\Demestrus\RiderProjects\TaskSceduler\ConsoleFirstTask\bin\Debug\netcoreapp3.1\ConsoleFirstTask.deps.json
+C:\Users\Demestrus\RiderProjects\TaskSceduler\ConsoleFirstTask\bin\Debug\netcoreapp3.1\ConsoleFirstTask.runtimeconfig.json
+C:\Users\Demestrus\RiderProjects\TaskSceduler\ConsoleFirstTask\bin\Debug\netcoreapp3.1\ConsoleFirstTask.runtimeconfig.dev.json
+C:\Users\Demestrus\RiderProjects\TaskSceduler\ConsoleFirstTask\bin\Debug\netcoreapp3.1\ConsoleFirstTask.dll
+C:\Users\Demestrus\RiderProjects\TaskSceduler\ConsoleFirstTask\bin\Debug\netcoreapp3.1\ConsoleFirstTask.pdb
+C:\Users\Demestrus\RiderProjects\TaskSceduler\ConsoleFirstTask\bin\Debug\netcoreapp3.1\Application.dll
+C:\Users\Demestrus\RiderProjects\TaskSceduler\ConsoleFirstTask\bin\Debug\netcoreapp3.1\Application.pdb
+C:\Users\Demestrus\RiderProjects\TaskSceduler\ConsoleFirstTask\obj\Debug\netcoreapp3.1\ConsoleFirstTask.csprojAssemblyReference.cache
+C:\Users\Demestrus\RiderProjects\TaskSceduler\ConsoleFirstTask\obj\Debug\netcoreapp3.1\ConsoleFirstTask.AssemblyInfoInputs.cache
+C:\Users\Demestrus\RiderProjects\TaskSceduler\ConsoleFirstTask\obj\Debug\netcoreapp3.1\ConsoleFirstTask.AssemblyInfo.cs
+C:\Users\Demestrus\RiderProjects\TaskSceduler\ConsoleFirstTask\obj\Debug\netcoreapp3.1\ConsoleFirstTask.csproj.CopyComplete
+C:\Users\Demestrus\RiderProjects\TaskSceduler\ConsoleFirstTask\obj\Debug\netcoreapp3.1\ConsoleFirstTask.dll
+C:\Users\Demestrus\RiderProjects\TaskSceduler\ConsoleFirstTask\obj\Debug\netcoreapp3.1\ConsoleFirstTask.pdb

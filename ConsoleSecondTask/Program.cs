@@ -9,20 +9,18 @@ namespace ConsoleSecondTask
     {
         static void Main(string[] args)
         {
-            //given
             var activities = new Dictionary<long, Activity>
             {
-                {1, new DurableActivity(1, SetTodayDateTime("12:00"), TimeSpan.FromMinutes(15))},
-                {2, new DurableActivity(2, SetTodayDateTime("12:00"), TimeSpan.FromMinutes(5))}
+                {1, new DurableActivity(1, DateTimeHelper.SetTodayTime("12:00"), TimeSpan.FromMinutes(15))},
+                {2, new DurableActivity(2, DateTimeHelper.SetTodayTime("12:00"), TimeSpan.FromMinutes(5))}
             };
-
-
+            
             activities.Add(3,
                 new DurableActivity(3, new[]
                     {
                         activities[1]
                     },
-                    SetTodayDateTime("12:10"),
+                    DateTimeHelper.SetTodayTime("12:10"),
                     TimeSpan.FromMinutes(10)
                 )
             );
@@ -33,7 +31,7 @@ namespace ConsoleSecondTask
                         activities[2],
                         activities[3]
                     },
-                    SetTodayDateTime("12:20"),
+                    DateTimeHelper.SetTodayTime("12:20"),
                     TimeSpan.FromMinutes(10)
                 )
             );
@@ -42,7 +40,7 @@ namespace ConsoleSecondTask
                     {
                         activities[4]
                     },
-                    SetTodayDateTime("12:50"),
+                    DateTimeHelper.SetTodayTime("12:50"),
                     TimeSpan.FromMinutes(5)
                 )
             );
@@ -51,7 +49,7 @@ namespace ConsoleSecondTask
                     {
                         activities[4]
                     },
-                    SetTodayDateTime("13:00"),
+                    DateTimeHelper.SetTodayTime("13:00"),
                     TimeSpan.FromMinutes(5)
                 )
             );
@@ -60,7 +58,7 @@ namespace ConsoleSecondTask
                     {
                         activities[5]
                     },
-                    SetTodayDateTime("13:45"),
+                    DateTimeHelper.SetTodayTime("13:45"),
                     TimeSpan.FromMinutes(5)
                 )
             );
@@ -69,7 +67,7 @@ namespace ConsoleSecondTask
                     {
                         activities[5]
                     },
-                    SetTodayDateTime("13:20"),
+                    DateTimeHelper.SetTodayTime("13:20"),
                     TimeSpan.FromMinutes(15)
                 )
             );
@@ -78,17 +76,15 @@ namespace ConsoleSecondTask
                     {
                         activities[6]
                     },
-                    SetTodayDateTime("13:30"),
+                    DateTimeHelper.SetTodayTime("13:30"),
                     TimeSpan.FromMinutes(15)
                 )
             );
 
             try
             {
-                //SUT
                 var scheduler = new Scheduler(activities.Select(s => s.Value).ToArray());
-
-                //Result
+                
                 var schedule = scheduler.FindShortestSchedule();
 
                 foreach (var activity in schedule.Activities)
@@ -103,7 +99,5 @@ namespace ConsoleSecondTask
                 Console.WriteLine(ex.Message);
             }
         }
-
-        private static DateTime SetTodayDateTime(string timeSpan) => DateTime.UtcNow.Date.Add(TimeSpan.Parse(timeSpan));
     }
 }
